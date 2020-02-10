@@ -12,6 +12,8 @@ class MyFeatureActivity : AppCompatActivity(R.layout.activity_my_feature) {
     }
 
     private fun log() {
-        Log.d(MyFeatureActivity::class.java.simpleName, "onCreate() is called")
+        if (BuildConfig.ENABLE_LOGGING) {
+            Log.d(MyFeatureActivity::class.java.simpleName, "onCreate() is called")
+        }
     }
 }
