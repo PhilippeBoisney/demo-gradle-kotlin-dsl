@@ -1,5 +1,0 @@
-rootProject.name='Demo'
-
-include ':app'
-include ':my_feature'
-include ':design'
