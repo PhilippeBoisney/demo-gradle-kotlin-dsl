@@ -8,6 +8,8 @@ import java.net.URL
 
 /**
  * Simple Gradle task that pings a provided url.
+ *
+ * You can also use external libraries to do that by adding them to your build.gradle.kts
  */
 open class PingUrlTask : DefaultTask() {
     @Input

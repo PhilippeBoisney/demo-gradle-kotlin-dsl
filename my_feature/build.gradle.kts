@@ -9,7 +9,7 @@ android {
     enableVectorDrawable()
 
     defaultConfig {
-        buildConfigBoolean("ENABLE_LOGGING", true)
+        buildConfigField("ENABLE_LOGGING", true)
     }
 }
 
